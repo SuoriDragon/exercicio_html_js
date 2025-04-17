@@ -22,7 +22,7 @@ form.addEventListener('submit', function(e) {
         campoA.value = '';
         campoB.value = '';
     }else {
-        const conteinerMensagemErro = do0cument.querySelector('.return-message');
+        const conteinerMensagemErro = document.querySelector('.return-message');
         conteinerMensagemErro.innerHTML =mensagemErro;
         conteinerMensagemErro.style.backgroundColor = 'red;'
         conteinerMensagemErro.style.display = 'block';
